@@ -19,4 +19,7 @@
   .grayed-out-disabed {
     @apply disabled:opacity-50;
   }
+  .active {
+    @apply border-2 border-solid border-white;
+  }
 }
