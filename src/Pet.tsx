@@ -18,7 +18,7 @@ const Pet = (props: IProps) => {
   }
 
   return (
-    <Link to={`/detail s/${id}`} className="relative block">
+    <Link to={`/details/${id}`} className="relative block">
       <div className="image-container">
         <img src={hero} alt={name} />
       </div>
